@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 from konlpy.tag import Komoran
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import sys 
 
 app = Flask(__name__)
 CORS(app)
