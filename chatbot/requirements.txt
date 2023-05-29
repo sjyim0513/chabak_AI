@@ -5,4 +5,3 @@ konlpy==0.6.0
 spacy==3.5.2
 openai==0.27.4
 requests==2.30.0
-python-dotenv==1.0.0

@@ -2,15 +2,14 @@ import os
 import openai
 import spacy
 import requests
-from dotenv import load_dotenv
 from konlpy.tag import Komoran
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
+
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 class OpenAIGpt:
     #초기 설정
