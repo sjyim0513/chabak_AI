@@ -11,12 +11,12 @@ app = Flask(__name__)
 CORS(app)
 
 load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 class OpenAIGpt:
     #초기 설정
     def __init__(self):
-        self.nlp = spacy.load(os.getenv('NER_MODEL_PATH'))  
+        self.nlp = spacy.load(os.environ.get('NER_MODEL_PATH'))  
         self.loc = set(["제주", "경기", "충청", "강원", "경상", "전라", "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "시", "봄", "여름", "가을", "겨울", "별", "바다", "가족", "반려", "커플", "힐링"])
         #사용할 형태소 분석 모델
         self.komoran = Komoran()
