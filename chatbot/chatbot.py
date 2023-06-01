@@ -2,6 +2,7 @@ import os
 import openai
 import spacy
 import requests
+from dotenv import load_dotenv
 from konlpy.tag import Komoran
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -9,7 +10,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = os.environ.get('OPENAI_API_KEY')
+load_dotenv()
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 class OpenAIGpt:
     #초기 설정
@@ -40,7 +42,7 @@ class OpenAIGpt:
         question = data['prompt']
         response = openai_gpt.run(question)
         if type(response) == list:
-            return jsonify({'response': '네, 해당 차박 리스트를 보여드릴게요', 'place_list': response})
+            return jsonify({'response': '네, 해당 차박 리스트를 보여드릴게요.', 'place_list': response})
         return jsonify({'response': response})
 
 
@@ -48,17 +50,10 @@ class OpenAIGpt:
     #인공지능 실행 코드 -> 백엔드에 보내야하는 경우에는 보내고 프론트에 보내기 (결국 프론트로 보내는거는 함수 호출로 해야함)
     def run(self, question):
         #입력을 typescript로부터 받아온다.
-        #question = input("Qeustion : ")
-        #prompt = question 
         prompt = question
 
         openai.api_key = os.getenv("OPENAI_API_KEY")
 
-        #주소 없이 테마, 계절로만 물어보는 경우 해결해야함
-        # 전체를 굴리다가 if theme에 대한 경우일 때 추가 작업 / 인덱스로 순서 찾기 -> 테마를 self.loc
-        # 맨 뒤에 넣어서 loc 인덱스가 클 경우에 처리 / 문자열이 아님.
-        # theme + "품"
-        #차박지 관련 정보 물어보는 경우 / for문 안에 인공지능 넣어두면 안 됨 빼는거 생각해야함.
         for loc in self.loc:
             if loc in prompt:
                 
@@ -74,6 +69,7 @@ class OpenAIGpt:
                     url += ent.label_ + "=" + ent.text + "&"
                 url = url[:-1]
                 id_lists = self.to_back(url)
+                print(url)
                 #Node.js의 exec는 print를 stdout에 저장한다. -> 처음 나오는 print가 stdout에 저장됨
                 return id_lists
          
@@ -81,9 +77,8 @@ class OpenAIGpt:
         #예) 네, 해당 차박 리스트를 보여드릴게요 같이 
             
         #그 외에 차박 관련 정보 물어볼 때
-
         response = openai.Completion.create(
-            engine="davinci:ft-personal-2023-05-25-02-37-57",
+            engine="davinci:ft-personal-2023-05-30-03-18-40",
             prompt=prompt,
             temperature=0.3,
             max_tokens=256,

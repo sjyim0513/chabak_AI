@@ -23,7 +23,7 @@ model_path = os.getenv('NER_MODEL_PATH')
 #nlp = spacy.load(model_path)
 trained_ner = spacy.load(model_path)
 
-input_text = "별 보며 힐링하기 좋은 차박지"
+input_text = "바다 근처 별 보기 좋은 차박지"
 
 #형태소 함수 실행
 text = preprocess_text(input_text)
