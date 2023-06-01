@@ -10,6 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 openai.api_key = os.environ.get('OPENAI_API_KEY')
+openai.organization = 'org-2wWRJZa4x4IYcmuUiurAdMI4'
 
 class OpenAIGpt:
     #초기 설정
