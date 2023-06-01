@@ -52,8 +52,6 @@ class OpenAIGpt:
         #입력을 typescript로부터 받아온다.
         prompt = question
 
-        openai.api_key = os.getenv("OPENAI_API_KEY")
-
         for loc in self.loc:
             if loc in prompt:
                 
