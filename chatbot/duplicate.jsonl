@@ -17,7 +17,7 @@
 {"category": "차박", "prompt": "차박에 필요한 캠핑의자는 어떤 걸 사야해?", "completion": "차박에 필요한 캠핑의자는 가벼우면서 튼튼한 것이 좋습니다. 의자의 크기나 높이도 편안한 사용을 고려해서 선택해야 합니다."}
 {"category": "차박", "prompt": "차박에 필요한 캠핑테이블은 어떤 걸 사야해?", "completion": "차박에 필요한 캠핑테이블은 가볍고 휴대성이 좋은 것이 좋습니다. 크기와 높이도 사용자의 편의에 따라 선택하면 됩니다."}
 {"category": "차박", "prompt": "차박용 캠핑테이블은 어떤 걸 준비해야해?", "completion": "차박용 캠핑테이블은 휴대성이 좋아야 하며, 출입구에 맞는 사이즈를 고르는 것이 좋습니다. 또한 내구성이 좋은 알루미늄 소재나 가벼운 ABS 소재의 제품이 인기가 있습니다."}
-{"category": "차박", "prompt": "캠핑용 테이블은 어떤 것이 좋아?", "completion": "캠핑용 테이블을 선택할 때는 크기, 무게, 접이식 여부, 내구성 등을 고려해야 합니다. 또한 캠핑장에서 사용할 것인지, 캠핑카 내부에서 사용할 것인지에 따라 적합한 테이블을 선택해야 합니다."}
+{"category": "차박", "prompt": "캠핑용 테이블은 어떤 것이 좋아?", "completion": "캠핑용 테이블을 선택할 때는 크기, 무게, 접이식 여부, 내구성 등을 고려해야 합니다. 또한 차 박 지에서 사용할 것인지, 캠핑카 내부에서 사용할 것인지에 따라 적합한 테이블을 선택해야 합니다."}
 {"category": "차박", "prompt": "차박할 때 전기는 어떻게 해결해?", "completion": "일반적으로 보조 배터리나 파워뱅크를 사용합니다."}
 {"category": "차박", "prompt": "차박할 때 전기차면 더 좋은게 있어?", "completion": "전기차일 경우 차량에 배터리가 탑재되어 있어 파워뱅크가 필요 없습니다."}
 {"category": "차박", "prompt": "차박을 할 때 쓰는 캠핑카커튼은 어떤 종류가 있어?", "completion": "차박을 할 때 사용하는 캠핑카커튼으로는 블랙아웃 커튼, 썬쉴드 커튼, 일반 커튼 등이 있습니다."}
@@ -227,12 +227,91 @@
 {"category": "웹", "prompt": "필터는 무슨 기능이야?", "completion": "필터를 선택해 해당 장소를 볼 수 있습니다."}
 {"category": "웹", "prompt": "필터에서 시설은 뭐야?", "completion": "시설은 해당 캠핑/차박지에 있는 시설을 의미합니다."}
 {"category": "웹", "prompt": "목록 모양은 뭐야?", "completion": "목록 모양은 필터를 의미합니다."}
-{"category": "웹", "prompt": "시설은 어떤거야?", "completion": "시설에는 와이파이, 전기, 물놀이장 등 부가 시설에 대한 정보를 의미합니다."}
+{"category": "웹", "prompt": "시설은 어떤거야?", "completion": "시설에는 와이파이, 전기, 물놀이장 등 부가 시설에 대한 정보를 의미합니다."}#추가
 {"category": "웹", "prompt": "검색은 뭐야?", "completion": "검색 기능을 사용하여 원하는 차박지를 찾을 수 있습니다."}
-{"category": "웹", "prompt": "검색으로는 뭘 할 수 있어?", "completion": "검색을 통해 원하는 캠핑/차박지를 찾을 수 있습니다."}
+{"category": "웹", "prompt": "검색으로는 뭘 할 수 있어?", "completion": "검색을 통해 원하는 캠핑/차박지를 찾을 수 있습니 다."}
 {"category": "웹", "prompt": "검색은 무슨 기능이야?", "completion": "검색은 원하시는 검색어를 입력하시면 해당하는 정보를 볼 수 있습니다."}
 {"category": "웹", "prompt": "검색", "completion": "검색 기능은 검색어에 맞는 캠핑/차박지 정보를 가져옵니다."}
 {"category": "웹", "prompt": "뭘 검색할 수 있어?", "completion": "지역, 테마, 시설, 이름 등 여러 검색어로 검색할 수 있습니다."}
 {"category": "웹", "prompt": "돋보기 모양은 뭐야?", "completion": "돋보기 모양은 검색을 의미합니다! 원하시는 검색어로 캠핑/차박지를 찾아보세요."}
 {"category": "웹", "prompt": "돋보기는 뭐야?", "completion": "돋보기 모양은 검색을 의미합니다! 원하시는 검색어로 캠핑/차박지를 찾아보세요."}
 {"category": "웹", "prompt": "돋보기", "completion": "돋보기 모양은 검색을 의미합니다! 원하시는 검색어로 캠핑/차박지를 찾아보세요."}
+{"category": "인사", "prompt": "안녕?", "completion": "안녕하세요! "}
+{"category": "인사", "prompt": "반가워", "completion": "안녕하세요! 만나서 반가워요."}
+{"category": "인사", "prompt": "하이", "completion": "안녕하세요! 찾으시는게 있으신가요?"}
+{"category": "인사", "prompt": "ㅎㅇ", "completion": "안녕하세요! 어떤 걸 도와드릴까요?"}
+{"category": "인사", "prompt": "안녕 너는 누구야?", "completion": "안녕하세요! 저는 차박을 쉽게 만들어주는 인공지능 챗봇 차박이에요."}
+{"category": "인사", "prompt": "만나서 반가워", "completion": "안녕하세요! 만나서 반가워요."}
+{"category": "인사", "prompt": "나 갈게", "completion": "안녕히가세요! 더 많은 더움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "인사", "prompt": "ㅂㅂ", "completion": "안녕히가세요! 찾으시던 건 다 찾으셨나요? 다음에도 뵐 수 있겠죠?"}
+{"category": "인사", "prompt": "잘 있어", "completion": "찾으시는 것은 다 찾으셨나요? 더 많은 도움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "인사", "prompt": "갈게", "completion": "안녕히가세요! 찾으시던 것은 다 찾으셨나요? 더 많은 도움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "인사", "prompt": "나 간다", "completion": "안녕히가세요! 찾으시던 건 다 찾으셨나요? 더 많은 도움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "인사", "prompt": "갈게 잘 있어", "completion": "찾으시던 건 다 찾으셨나요? 더 많은 도움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "인사", "prompt": "간다", "completion": "안녕히가세요! 더 많은 도움을 드리는 차박차박이 되도록 노력하겠습니다!"}
+{"category": "웹", "prompt": "차박지는 뭐야?", "completion": "차박지는 차박장소를 말합니다."}
+{"category": "웹", "prompt": "차박지 추천해줘", "completion": "지역, 테마, 계절 정보를 알려주시면 찾아드릴게요!"}
+{"category": "인사", "prompt": "차박지는 어디가 좋을까?", "completion": "테마나 계절을 알려주시면 찾아드릴게요!"}
+{"category": "인사", "prompt": "차박 장소 추천해줘", "completion": "지역, 테마, 계절 정보를 알려주시면 찾아드릴게요!"}
+{"category": "인사", "prompt": "차박할만한 곳 추천해줘", "completion": "테마나 계절을 알려주시면 찾아드릴게요!"}
+{"category": "인사", "prompt": "차박하기 좋은 곳 추천해줘", "completion": "지역, 테마, 계절 정보를 알려주시면 찾아드릴게요!"}
+{"category": "인사", "prompt": "차박지는 어떤거야?", "completion": "차박지는 차박장소를 말합니다."}
+{"category": "인사", "prompt": "차박지가 뭐야?", "completion": "차박지는 차박장소를 말합니다."}
+{"category": "인사", "prompt": "차박지 등록은 어떻게 해?", "completion": "차박지 등록은 로그인 후 차박지 등록 버튼을 누르고 주소, 이름, 설명, 태그를 적어 등록할 수 있습니다."}
+{"category": "인사", "prompt": "차박지 등록하는 방법", "completion": "차박지 등록은 로그인 후 차박지 등록 버튼을 누르고 주소, 이름, 설명, 태그를 적어 등록할 수 있습니다."}
+{"category": "인사", "prompt": "차박지 등록은 뭐야?", "completion": ""}
+{"category": "인사", "prompt": "차박지 등록은 어떻게 하는거야?", "completion": "차박지 등록은 로그인 후 차박지 등록 버튼을 누르고 주소, 이름, 설명, 태그를 적어 등록할 수 있습니다."}
+{"category": "인사", "prompt": "차박지, "completion": "차박지는 차박장소를 말합니다."}
+{"category": "인사", "prompt": "차박지는 어떻게 봐?", "completion": "검색을 통해 볼 수 있습니다. 사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "등록한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "내가 등록한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "내가 추가한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "남이 등록한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "남이 추가한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "다른 사용자 등록 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "다른 사용자 등록 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "다른 사람이 등록한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "다른 사람이 추가한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "다른 사람이 등록한 차박지는 어디서 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "타인이 등록한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "타인이 추가한 차박지는 어떻게 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "나 말고 다른 사람이 추가한 차박지는 어디서 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "나 말고 다른 사람이 등록한 차박지는 어디서 봐?", "completion": "사용자 등록 차박지의 경우 차박지 보기 버튼을 눌러 볼 수 있습니다."}
+{"category": "인사", "prompt": "마이페이지에서는 뭘 할 수 있어?", "completion": "마이페이지에서는 사용자 정보를 수정하거나 등록한 차박지와 즐겨찾기를 관리할 수 있습니다."}
+{"category": "인사", "prompt": "마이페이지는 뭐야?", "completion": "마이페이지는 사용자 정보와 등록한 차박지, 즐겨찾기를 수정할 수 있는 페이지입니다."}
+{"category": "인사", "prompt": "마이페이지에서 뭘 할 수 있어?", "completion": "마이페이지에서는 사용자 정보를 수정하거나 등록한 차박지와 즐겨찾기를 관리할 수 있습니다."}
+{"category": "인사", "prompt": "마이페이지는 무슨 기능이야?", "completion": "마이페이지에서는 사용자 정보를 수정하거나 등록한 차박지와 즐겨찾기를 관리할 수 있습니다."}
+{"category": "인사", "prompt": "마이페이지는 어떤거야?", "completion": "마이페이지에서는 사용자 정보를 수정하거나 등록한 차박지와 즐겨찾기를 관리할 수 있습니다."}
+{"category": "인사", "prompt": "마이페이지는", "completion": "마이페이지에서는 사용자 정보를 수정하거나 등록한 차박지와 즐겨찾기를 관리할 수 있습니다."}
+{"category": "인사", "prompt": "요금은 얼마야?", "completion": "요금에 대한 정보는 각 사업장 정보를 확인해보셔야합니다."}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+불 피울 수 있는지
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
+{"category": "인사", "prompt": "", "completion": ""}
