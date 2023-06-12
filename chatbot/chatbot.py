@@ -9,7 +9,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-openai.organization = 'org-2wWRJZa4x4IYcmuUiurAdMI4'
+openai.organization = os.environ.get('OPENAI_ORG')
 openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 class OpenAIGpt:
